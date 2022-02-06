@@ -36,39 +36,38 @@ Store Owner | edit or update a product | change product prices, descriptions, im
 Store Owner | delete products | remove items that no longer for sale |
 
 <!--Main Versions Requirements used in project-->
-## Versions
-# Django 3.2 
-# Django Allauth 0.41.0
+# Versions
+## Django 3.2 
+## Django Allauth 0.41.0
 
-## Installation 
-# pip3 install Django==3.2
-# pip3 django-allauth==0.41.0
+# Installation 
+## pip3 install Django==3.2
+## pip3 django-allauth==0.41.0
 
 <!--Requirements-->
-## Projects Requirements
-# asgiref==3.5.0
-# backports.zoneinfo==0.2.1
-# Django==3.2
-# django-allauth==0.41.0
-# oauthlib==3.1.1
-# python3-openid==3.2.0
-# pytz==2021.3
-# requests-oauthlib==1.3.0
-# sqlparse==0.4.2
+# Projects Requirements
+## asgiref==3.5.0
+## backports.zoneinfo==0.2.1
+## Django==3.2
+## django-allauth==0.41.0
+## oauthlib==3.1.1
+## python3-openid==3.2.0
+## pytz==2021.3
+## requests-oauthlib==1.3.0
+## sqlparse==0.4.2
 
 <!--Design-->
-## Color Scheme
-## Typography
-## Imagery
-## wireframes
+# Color Scheme
+# Typography
+# Imagery
+# wireframes
 <!--features-->
-## features
+# features
 # Technologies used
-## Languages used
-## Frameworks, Libraries & Programs used
+# Languages used
+# Frameworks, Libraries & Programs used
 # Testing 
 # Testing User Stories from User Experience
-## First time visitor Goals
 # Further Testing
 # Performance Testing Test Cases
 # Usability Testing Test Cases
@@ -77,13 +76,13 @@ Store Owner | delete products | remove items that no longer for sale |
 # Bugs
 
 # Deployment
-## GitHub Deployment
+# GitHub Deployment
 
 # Credits
-## code
-## content
-## Media
-## Acknowledgements
+# code
+# content
+# Media
+# Acknowledgements
 
 <!--Challenges faced in Project-->
   # challenges
