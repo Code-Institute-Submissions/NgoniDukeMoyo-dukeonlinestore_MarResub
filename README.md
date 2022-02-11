@@ -43,6 +43,7 @@ Store Owner | delete products | remove items that no longer for sale |
 # Installation 
 ## pip3 install Django==3.2
 ## pip3 django-allauth==0.41.0
+## pip3 install pillow 9.0.1
 
 <!--Requirements-->
 # Projects Requirements
