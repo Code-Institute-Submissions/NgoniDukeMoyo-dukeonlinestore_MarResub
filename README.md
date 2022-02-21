@@ -46,6 +46,7 @@ Store Owner | delete products | remove items that no longer for sale |
 ## pip3 install pillow 9.0.1
 ## pip3 install django-crispy-forms 1.14.0
 ## pip3 install stripe
+## pip3 install django-countries 7.2.1
 
 <!--Requirements-->
 # Projects Requirements
