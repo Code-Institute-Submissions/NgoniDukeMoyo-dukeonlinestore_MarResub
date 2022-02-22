@@ -1,0 +1,1 @@
+web: gunicorn duke_surf_online_store.wsgi:application
