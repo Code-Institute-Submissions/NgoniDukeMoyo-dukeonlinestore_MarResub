@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 #DEBUG = True
 
-ALLOWED_HOSTS = ['NgoniDukeMoyo-duke-surf-online-store.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['duke-surf-online-store.herokuapp.com', 'localhost']
 #ALLOWED_HOSTS = []
 
 
