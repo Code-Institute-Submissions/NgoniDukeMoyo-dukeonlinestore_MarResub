@@ -68,6 +68,8 @@ Store Owner | delete products | remove items that no longer for sale |
 ## pip3 install dj_database_url
 ## pip3 install psycopg2-binary
 ## pip3 install gunicorn
+## pip3 install boto3
+## pip3 install django-storages
 
 <!--Requirements-->
 # Projects Requirements

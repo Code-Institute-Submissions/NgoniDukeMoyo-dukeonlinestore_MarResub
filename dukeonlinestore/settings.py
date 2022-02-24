@@ -10,26 +10,30 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
-#import dj_database_url
-from pathlib import Path
+import dj_database_url
+#from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+#BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = os.environ.get('SECRET_KEY', '')
-SECRET_KEY = '%(=yjxt@3gw+1uhy*z40&b-@+3=26ay$=h@(o#vfs_299t_px_'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
+#SECRET_KEY = '%(=yjxt@3gw+1uhy*z40&b-@+3=26ay$=h@(o#vfs_299t_px_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
+#DEBUG = True
 
-#ALLOWED_HOSTS = ['NgoniDukeMoyo-duke-surf-online-store.herokuapp.com', 'localhost']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['NgoniDukeMoyo-duke-surf-online-store.herokuapp.com', 'localhost']
+#ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -53,6 +57,7 @@ INSTALLED_APPS = [
 
     #other
     'crispy_forms',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -174,6 +179,25 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+if 'USE_AWS' in os.environ:
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'duke-surf-online-store'
+    AWS_S3_REGION_NAME = 'eu-central-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
