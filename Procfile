@@ -1,1 +1,1 @@
-web: gunicorn duke_online_store.wsgi:application
+web: gunicorn duke_surf_online_store.wsgi:application
