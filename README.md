@@ -2,8 +2,8 @@
 ## To DOs App
 
 [App Preview](https://ngonidukemoyo-dukeonline-wfxfj3hkd6m.ws-eu33.gitpod.io/)
-![The App Full Screens View](media/dukesurfonlinestorecover.png)
-![The App Small Screens View](media/dukesurfonlinestore2.png)
+![The App Full Screens View](media/newlarge.png)
+![The App Small Screens View](media/newsmall.png)
 
 ## Build 
 Gitpod work environment
