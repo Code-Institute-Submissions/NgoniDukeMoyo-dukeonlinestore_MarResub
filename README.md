@@ -13,36 +13,54 @@ This is an ecommerce website which caters to the exchange of goods and services 
 
 <!--UX & User stories-->
 # User Experience
-Shopper | I want to be able to | So that i can |
-         Viewing & Navigation
- Shopper 1 | view a list of products | select some to buy|
- Shopper 2 | view individual products details | See price, details, description, rating |
- Shopeer 3 | quickly identify deals, specials | special offer savings |
- Shopper 4 | easily view total of my purchase at any time | avoid spending too much |
-            Registration & user account
-Site User 5 | easily register an account | have a personalised account |
-Site User 6 | easily login and logout | acess personal account | 
-Site User 7 | easily recover password | recover access |
-Site User 8 | receive email after registration | verify account registration success |
-Site User 9 | have a personalized profile | order history and other confirmation and saved payment information |
-             Sorting & Searching 
-Shopper 10  | sort the list of available products | easily identify best rates, prices and category sorting|
-Shopper 11 | sort specific category product | find the best price across broad categoty |
-Shopper 12 | sort multiple categories of products | find best price accross broad category |
-Shopper 13 | search for product by name or description | find a specific product |
-Shopper 14 | easily see what i have searched and number of results | quickly describe whether the product is available |
-            Purchasing & check out
-Shopper 15 | easily select size and quantity when buying | ensure i dont select the wrong product |
-Shopper 16 | view items in my bag to be purchased | identify the total cost of my purchase and all items to be received |
-Shopper 17 | adjust the quanitty of individual items in my bag | easily make changes before check out |
-Shopper 18 | easily enter payment info | check out quick and easy |
-Shopper 19 | feel my personal info is safe | comfortably provide the needed info for purchase |
-Shopper 20 | view an order confirmation after checkout | verify that i havent made mistakes |
-Shopper 21 | receive an email confirmation after checking out | keep the confirmation of purchased items for records |
-            Admin & store management
-Store Owner | add a product | add new items to the store |
-Store Owner | edit or update a product | change product prices, descriptions, images aand other criteria |
-Store Owner | delete products | remove items that no longer for sale |
+Viewing & Navigation
+| Shopper | I want to be able to..| So that i can..|
+|---------|-----------------------|----------------|
+| Shopper 1 | view a list of products | select some to buy|
+| Shopper 2 | view individual products details | See price, details, description, rating |
+| Shopeer 3 | quickly identify deals, specials | special offer savings |
+| Shopper 4 | easily view total of my purchase at any time | avoid spending too much |
+------------------------------------------------------------------------------------
+           Registration & user account                               
+------------------------------------------------------------------------
+| Site User | I want to be able to..| So that i can..|
+|---------|-----------------------|----------------|
+| Site User 5 | easily register an account | have a personalised account |
+| Site User 6 | easily login and logout | acess personal account | 
+| Site User 7 | easily recover password | recover access |
+| Site User 8 | receive email after registration | verify account registration success |
+| Site User 9 | have a personalized profile | order history and other confirmation and saved payment information |
+------------------------------------------------------------------------------------------------------------
+             Sorting & Searching                                                                           
+------------------------------------------------------------------------------------------------------------
+| Shopper | I want to be able to..| So that i can..|
+|---------|-----------------------|----------------|
+| Shopper 10 | sort the list of available products | easily identify best rates, prices and category sorting|
+| Shopper 11 | sort specific category product | find the best price across broad categoty |
+| Shopper 12 | sort multiple categories of products | find best price accross broad category |
+| Shopper 13 | search for product by name or description | find a specific product |
+| Shopper 14 | easily see what i have searched and number of results | quickly describe whether the product is available |
+--------------------------------------------------------------------------------------------------------------------------
+            Purchasing & check out                                                                                       
+--------------------------------------------------------------------------------------------------------------------------
+| Shopper | I want to be able to..| So that i can..|
+|---------|-----------------------|----------------|
+| Shopper 15 | easily select size and quantity when buying | ensure i dont select the wrong product |
+| Shopper 16 | view items in my bag to be purchased | identify the total cost of my purchase and all items to be received |
+| Shopper 17 | adjust the quanitty of individual items in my bag | easily make changes before check out |
+| Shopper 18 | easily enter payment info | check out quick and easy |
+| Shopper 19 | feel my personal info is safe | comfortably provide the needed info for purchase |
+| Shopper 20 | view an order confirmation after checkout | verify that i havent made mistakes |
+| Shopper 21 | receive an email confirmation after checking out | keep the confirmation of purchased items for records |
+---------------------------------------------------------------------------------------------------------------------------
+            Admin & store management                                                                                      
+----------------------------------------------------------------------------------------------------------------------------
+| Store Owner | I want to be able to..| So that i can..|
+|---------|-----------------------|----------------|
+| Store Owner | add a product | add new items to the store |
+| Store Owner | edit or update a product | change product prices, descriptions, images aand other criteria |
+| Store Owner | delete products | remove items that no longer for sale |
+----------------------------------------------------------------------------------------------------------------------------
 
 ### Technologies
 
